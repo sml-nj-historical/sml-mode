@@ -16,6 +16,7 @@
 .DS_store
 # Simulated Subversion default ignores end here
 # The contents of the svn:ignore property on the branch root.
+/*.elc
 /sml-mode-startup.el
 /sml-mode.cp
 /sml-mode.cps
