@@ -158,8 +158,8 @@ $(PACKAGE)-startup.el: $(ELFILES)
 ##
 
 #TAG = $(shell echo v$(VERSION) | tr '.' '_')
-URL="$(sed -n -e '5p' .svn/entries)"
-TAG="$(dirname "$URL")/releases/$(PACKAGE)-$(VERSION)"
+URL=$(shell sed -n -e '5p' .svn/entries)
+TAG=$(shell dirname "$(URL)")/releases/$(PACKAGE)-$(VERSION)
 ftpdir=/u/monnier/html/elisp/
 cvsmodule=$(shell cat CVS/Repository)
 cvsroot=$(shell cat CVS/Root)
