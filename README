@@ -1,3 +1,11 @@
+This is an automatically-generated archive. Please go to
+	https://elpa.gnu.org/packages/sml-mode.html
+for the latest version of sml-mode as informed by Stefan [1].
+
+[1]: https://github.com/sml-nj/sml-mode/issues/1
+
+---
+
 SML-MODE is a major Emacs mode for editing Standard ML.
 It provides syntax highlighting and automatic indentation and
 comes with sml-proc which allows interaction with an inferior SML
